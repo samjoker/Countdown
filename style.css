@@ -1,0 +1,39 @@
+*,
+::after,
+::before {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.title {
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+h1 {
+	font-size: 4rem;
+}
+img {
+	width: 600px;
+	height: 500px;
+	/* border: 2px solid red; */
+}
+.day,
+.hour,
+.minutes,
+.seconds {
+	font-size: 2rem;
+}
+
+.wish {
+	background-color: ;
+}
