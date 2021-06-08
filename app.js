@@ -7,7 +7,7 @@ let countDate;
 
 const contDown = setInterval(function () {
 	countDate = new Date('Jun 10 , 2021 00:00:00').getTime();
-	now = new Date('Jun 12 , 2021 00:00:00').getTime();
+	now = new Date('Jun 10, 2021 00:00:00').getTime();
 	// console.log(now);
 	// console.log(countDate);
 	const gap = countDate - now;
@@ -37,7 +37,7 @@ const contDown = setInterval(function () {
 	document.querySelector('.minutes').innerText = textMinute;
 	document.querySelector('.seconds').innerText = textSecond;
 
-	// console.log(gap);
+	console.log(gap);
 	wish.classList.add('wish');
 	if (now == countDate) {
 		title.innerHTML = '<style = display:none></style>';
